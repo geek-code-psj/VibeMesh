@@ -8,11 +8,20 @@ const Home = () => {
         <div className="space-y-8 animate-fade-in">
             {/* Hero Section */}
             <div className="glass rounded-2xl p-8 md:p-12 text-center">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-                    Welcome to <span className="text-gradient">Campus Connect</span>
+                <div className="flex justify-center mb-6">
+                    <img
+                        src="/vibemesh_logo.png"
+                        alt="VibeMesh Logo"
+                        className="w-24 h-24 md:w-32 md:h-32 rounded-2xl animate-float"
+                    />
+                </div>
+                <h1 className="text-4xl md:text-5xl font-bold mb-4">
+                    Welcome to{' '}
+                    <span className="text-vibe">Vibe</span>
+                    <span className="text-mesh">Mesh</span>
                 </h1>
                 <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                    Connect, collaborate, and celebrate with your SATI community
+                    <span className="text-connect font-semibold">Connect</span>, collaborate, and celebrate with your SATI community
                 </p>
             </div>
 

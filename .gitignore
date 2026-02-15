@@ -26,3 +26,6 @@ yarn-error.log*
 
 # Testing
 coverage/
+
+# Deployment docs with potential credentials
+DEPLOYMENT.md

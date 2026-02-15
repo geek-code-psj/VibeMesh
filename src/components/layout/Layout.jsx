@@ -22,12 +22,15 @@ const Layout = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         {/* Logo */}
-                        <Link to="/" className="flex items-center space-x-2">
-                            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-purple-600 flex items-center justify-center">
-                                <span className="text-white font-bold text-xl">CC</span>
-                            </div>
-                            <span className="text-xl font-bold text-gray-900 dark:text-white hidden sm:block">
-                                Campus Connect
+                        <Link to="/" className="flex items-center space-x-3">
+                            <img
+                                src="/vibemesh_logo.png"
+                                alt="VibeMesh Logo"
+                                className="w-10 h-10 rounded-xl"
+                            />
+                            <span className="text-xl font-bold hidden sm:block">
+                                <span className="text-vibe">Vibe</span>
+                                <span className="text-connect">Mesh</span>
                             </span>
                         </Link>
 
@@ -40,8 +43,8 @@ const Layout = () => {
                                         key={item.path}
                                         to={item.path}
                                         className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-colors ${isActive(item.path)
-                                                ? 'bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300'
-                                                : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
+                                            ? 'bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300'
+                                            : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
                                             }`}
                                     >
                                         <Icon className="w-5 h-5" />
@@ -93,14 +96,14 @@ const Layout = () => {
                                 )}
                                 <Icon
                                     className={`w-6 h-6 ${active
-                                            ? 'text-primary-600 dark:text-primary-400'
-                                            : 'text-gray-500 dark:text-gray-400'
+                                        ? 'text-primary-600 dark:text-primary-400'
+                                        : 'text-gray-500 dark:text-gray-400'
                                         }`}
                                 />
                                 <span
                                     className={`text-xs font-medium ${active
-                                            ? 'text-primary-600 dark:text-primary-400'
-                                            : 'text-gray-500 dark:text-gray-400'
+                                        ? 'text-primary-600 dark:text-primary-400'
+                                        : 'text-gray-500 dark:text-gray-400'
                                         }`}
                                 >
                                     {item.name}

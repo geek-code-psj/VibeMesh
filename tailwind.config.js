@@ -11,6 +11,11 @@ export default {
                 sans: ['Inter', 'system-ui', 'sans-serif'],
             },
             colors: {
+                // VibeMesh Brand Colors
+                vibe: '#6366F1',
+                mesh: '#F59E0B',
+                connect: '#10B981',
+                // Primary theme (kept for compatibility)
                 primary: {
                     50: '#f0f9ff',
                     100: '#e0f2fe',
