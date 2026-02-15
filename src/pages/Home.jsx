@@ -12,7 +12,7 @@ const Home = () => {
                     <img
                         src="/vibemesh_logo.png"
                         alt="VibeMesh Logo"
-                        className="w-24 h-24 md:w-32 md:h-32 rounded-2xl animate-float"
+                        className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-xl animate-float"
                     />
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">

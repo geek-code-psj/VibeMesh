@@ -26,7 +26,7 @@ const Layout = () => {
                             <img
                                 src="/vibemesh_logo.png"
                                 alt="VibeMesh Logo"
-                                className="w-10 h-10 rounded-xl"
+                                className="w-10 h-10 rounded-full object-cover"
                             />
                             <span className="text-xl font-bold hidden sm:block">
                                 <span className="text-vibe">Vibe</span>
