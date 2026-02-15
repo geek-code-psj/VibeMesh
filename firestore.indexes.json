@@ -1,0 +1,81 @@
+{
+    "indexes": [
+        {
+            "collectionGroup": "vibes",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "createdAt",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "vibes",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "createdAt",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "createdAt",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "vibes",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "heartsCount",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "sectionPosts",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "sectionId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "createdAt",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "sectionPosts",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "sectionId",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "tags",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "createdAt",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "collabs",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "createdAt",
+                    "order": "DESCENDING"
+                }
+            ]
+        }
+    ],
+    "fieldOverrides": []
+}

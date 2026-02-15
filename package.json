@@ -1,0 +1,48 @@
+{
+  "name": "campus-connect",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A vibrant social platform for college students to connect, collaborate, and share experiences",
+  "author": "SATI Campus Connect Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/campus-connect.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "vite",
+    "tailwind",
+    "college",
+    "social-platform",
+    "collaboration"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "firebase": "^11.1.0",
+    "framer-motion": "^12.0.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
